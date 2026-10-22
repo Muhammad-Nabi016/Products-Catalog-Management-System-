@@ -1,8 +1,8 @@
-Product Catalog Management System
+# Product Catalog Management System
 
 A full-stack web application for managing products using React.js, Node.js, Express.js, and MongoDB. The system allows users to add, view, update, delete, and search products through a user-friendly interface.
 
-Features
+## Features
 
 - Add new products
 - View all products
@@ -13,28 +13,26 @@ Features
 - RESTful API built with Express.js
 - Responsive React.js frontend
 
-Technologies Used
+## Technologies Used
 
-Frontend
-
+**Frontend**
 - React.js
 - Vite
 - HTML5
 - CSS3
 - JavaScript
 
-Backend
-
+**Backend**
 - Node.js
 - Express.js
 - Mongoose
 
-Database
-
+**Database**
 - MongoDB Atlas
 
-Project Structure
+## Project Structure
 
+```text
 Product Catalog Management/
 ├── frontend/
 │   ├── src/
@@ -50,60 +48,74 @@ Product Catalog Management/
 ├── .env
 ├── .gitignore
 └── README.md
+```
 
-Installation and Setup
+## Installation and Setup
 
-1. Clone the Repository
+### 1. Clone the Repository
 
+```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 cd "Product Catalog Management"
+```
 
-2. Install Backend Dependencies
+### 2. Install Backend Dependencies
 
+```bash
 npm install
+```
 
-3. Configure Environment Variables
+### 3. Configure Environment Variables
 
-Create a ".env" file in the root directory:
+Create a `.env` file in the root directory:
 
+```env
 MONGODB_URI=YOUR_MONGODB_ATLAS_CONNECTION_STRING
 PORT=3000
+```
 
 Replace the placeholder with your MongoDB Atlas connection string. Never share or upload your database credentials.
 
-4. Start the Backend Server
+### 4. Start the Backend Server
 
+```bash
 npm start
+```
 
 Backend API runs at:
 
-"http://localhost:3000"
+`http://localhost:3000`
 
-5. Install Frontend Dependencies
+### 5. Install Frontend Dependencies
 
 Open a new terminal:
 
+```bash
 cd frontend
 npm install
+```
 
-6. Start the Frontend
+### 6. Start the Frontend
 
+```bash
 npm run dev
+```
 
 Open the local URL shown in your terminal, usually:
 
-"http://localhost:5173"
+`http://localhost:5173`
 
-API Endpoints
+## API Endpoints
 
-Method| Endpoint| Description
-GET| "/"| Check API status
-POST| "/api/products"| Add a product
-GET| "/api/products"| Retrieve all products
-PUT| "/api/products/:id"| Update a product
-DELETE| "/api/products/:id"| Delete a product
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/` | Check API status |
+| POST | `/api/products` | Add a product |
+| GET | `/api/products` | Retrieve all products |
+| PUT | `/api/products/:id` | Update a product |
+| DELETE | `/api/products/:id` | Delete a product |
 
-Learning Outcomes
+## Learning Outcomes
 
 - Built CRUD APIs using Express.js
 - Connected a Node.js application to MongoDB Atlas
@@ -112,8 +124,8 @@ Learning Outcomes
 - Integrated frontend requests with backend APIs
 - Practiced environment variable configuration and project organization
 
-Author
+## Author
 
-Muhammad Nabi
+**Muhammad Nabi**
 
 Software Engineer
