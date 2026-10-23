@@ -55,7 +55,7 @@ Product Catalog Management/
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Muhammad-Nabi016/Products-Catalog-Management-System-
 cd "Product Catalog Management"
 ```
 
