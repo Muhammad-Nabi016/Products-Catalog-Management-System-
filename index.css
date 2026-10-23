@@ -1,0 +1,27 @@
+
+:root {
+  font-family: Inter, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  color: #1e293b;
+  background: #f5f7fb;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #7166ed;
+  outline-offset: 2px;
+}
